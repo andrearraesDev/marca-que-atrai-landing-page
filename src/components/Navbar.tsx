@@ -14,15 +14,6 @@ const Navbar = () => {
             Marca<span className="text-brand-lime">dos</span>
           </a>
         </div>
-
-        {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-8">
-          <a href="#o-que-e" className="text-sm font-medium uppercase hover:text-brand-lime transition-colors">PNAC</a>
-          <a href="#como-funciona" className="text-sm font-medium uppercase hover:text-brand-lime transition-colors">O que tem dentro</a>
-          <a href="#depoimentos" className="text-sm font-medium uppercase hover:text-brand-lime transition-colors">Depoimentos</a>
-          <a href="#faq" className="text-sm font-medium uppercase hover:text-brand-lime transition-colors">FAQ</a>
-          <a href="#cta" className="btn-primary text-sm">COMEÇAR AGORA</a>
-        </nav>
       </div>
 
       {/* Mobile Menu */}
