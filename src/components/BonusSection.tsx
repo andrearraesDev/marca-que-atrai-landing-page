@@ -6,17 +6,17 @@ const BonusSection = () => {
   return (
     <section className="bg-brand-black text-white section">
       <div className="container-custom">
+        <div className="text-center mb-8">
+          <a href="#cta" className="btn-primary inline-block">
+            QUERO ESSES BÔNUS
+          </a>
+        </div>
+        
         <div className="flex items-center justify-center mb-8">
           <div className="bonus-tag mr-3">
             <Gift className="h-4 w-4 mr-1" /> BÔNUS
           </div>
           <h2 className="text-3xl md:text-4xl font-bold">Exclusivos</h2>
-        </div>
-        
-        <div className="text-center mb-12">
-          <a href="#cta" className="btn-primary inline-block">
-            QUERO ESSES BÔNUS
-          </a>
         </div>
         
         <div className="max-w-3xl mx-auto bg-gray-900 rounded-lg p-8 relative overflow-hidden">
