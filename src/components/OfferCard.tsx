@@ -8,7 +8,7 @@ const OfferCard = () => {
       <div className="container-custom">
         <div className="max-w-3xl mx-auto bg-white rounded-lg shadow-xl overflow-hidden">
           <div className="p-8 md:p-12">
-            <h3 className="text-2xl md:text-3xl font-bold mb-6 text-center">Consultoria Marca Que Atrai</h3>
+            <h3 className="text-2xl md:text-3xl font-bold mb-6 text-center">Consultoria Express MARCA QUE ATRAI</h3>
             
             <div className="flex justify-center mb-8">
               <div className="flex -space-x-2">
@@ -49,7 +49,7 @@ const OfferCard = () => {
                   <div className="bonus-tag mr-2">
                     <Gift className="h-3 w-3 mr-1" /> BÔNUS
                   </div>
-                  <span className="text-sm">30min de consultoria por vídeo</span>
+                  <span className="text-sm">45 min de consultoria por vídeo</span>
                 </div>
               </div>
             </div>

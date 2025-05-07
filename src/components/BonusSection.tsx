@@ -47,7 +47,7 @@ const BonusSection = () => {
               </li>
             </ul>
             
-            <div className="w-20 h-20 absolute top-0 right-0 bg-brand-lime text-brand-black flex items-center justify-center font-bold -rotate-12 shadow-xl">
+            <div className="w-20 h-20 absolute top-0 right-0 bg-brand-lime rounded-full text-brand-black flex items-center justify-center font-bold -rotate-12 shadow-xl">
               <div className="transform rotate-12">GRÁTIS</div>
             </div>
           </div>

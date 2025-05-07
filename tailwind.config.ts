@@ -67,8 +67,8 @@ export default {
 				'brand-black': '#000000',
 				'brand-white': '#FFFFFF',
 				'brand-gray': '#F0F0F0',
-				'brand-blue': '#3B3BFF',
-				'brand-gold': '#FFC700',
+				'brand-blue': '#92582c',  // Changed from #3B3BFF to #92582c
+				'brand-gold': '#000000',  // Changed from #FFC700 to black
 				'brand-lime': '#CCFF00',
 			},
 			fontFamily: {

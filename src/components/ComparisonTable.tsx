@@ -33,10 +33,10 @@ const ComparisonTable = () => {
         <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
           <div className="grid grid-cols-2">
             <div className="bg-brand-black text-white p-4 font-bold text-center">
-              NEGÓCIO SEM POSICIONAMENTO
+              NEGÓCIO ANTES
             </div>
             <div className="bg-brand-blue text-white p-4 font-bold text-center">
-              NEGÓCIO COM POSICIONAMENTO
+              NEGÓCIO DEPOIS
             </div>
           </div>
           

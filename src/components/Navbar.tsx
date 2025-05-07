@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { X } from 'lucide-react';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,15 +23,6 @@ const Navbar = () => {
           <a href="#faq" className="text-sm font-medium uppercase hover:text-brand-lime transition-colors">FAQ</a>
           <a href="#cta" className="btn-primary text-sm">COMEÇAR AGORA</a>
         </nav>
-
-        {/* Mobile Menu Button */}
-        <button 
-          className="md:hidden p-2"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-          aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
-        >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
       </div>
 
       {/* Mobile Menu */}

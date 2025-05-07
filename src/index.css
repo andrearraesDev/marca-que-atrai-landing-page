@@ -70,7 +70,7 @@
   }
   
   .bonus-tag {
-    @apply inline-flex items-center bg-brand-gold text-brand-black text-xs font-bold px-3 py-1 rounded-full uppercase;
+    @apply inline-flex items-center bg-brand-gold text-white text-xs font-bold px-3 py-1 rounded-full uppercase;
   }
   
   .section {
@@ -82,6 +82,6 @@
   }
   
   .btn-primary {
-    @apply bg-brand-blue hover:bg-blue-600 text-white font-bold py-3 px-6 rounded transition-all duration-200 uppercase text-center;
+    @apply bg-brand-blue hover:bg-brand-blue/80 text-white font-bold py-3 px-6 rounded transition-all duration-200 uppercase text-center;
   }
 }

@@ -6,17 +6,17 @@ const ContentBlocks = () => {
     {
       number: "01",
       title: "Posicionamento",
-      description: "Descubra como se diferenciar da concorrência e ocupar um lugar único na mente dos seus clientes."
+      description: "Descubra como diferenciar sua marca da concorrência e ocupar um lugar único na mente e no coração dos seus clientes."
     },
     {
       number: "02",
-      title: "Nicho",
-      description: "Identifique e conquiste o público certo para o seu negócio, maximizando seus resultados."
+      title: "Diferencial Local",
+      description: "Aprenda a identificar e comunicar o seu maior diferencial para se destacar no mercado de beleza, moda, bem-estar e saúde da sua região."
     },
     {
       number: "03",
-      title: "Atração",
-      description: "Desenvolva estratégias poderosas para atrair clientes ideais de forma contínua e escalonável."
+      title: "Atração de Clientes",
+      description: "Desenvolva estratégias práticas para atrair mais clientes ideais e transformar sua marca em referência de vendas no seu bairro ou cidade."
     }
   ];
 
@@ -35,14 +35,6 @@ const ContentBlocks = () => {
               <p className="text-gray-700">{block.description}</p>
             </div>
           ))}
-        </div>
-
-        <div className="mt-16 flex justify-center">
-          <div className="flex space-x-4">
-            <div className="tag">POSICIONAMENTO</div>
-            <div className="tag">NICHO</div>
-            <div className="tag">ATRAÇÃO</div>
-          </div>
         </div>
       </div>
     </section>

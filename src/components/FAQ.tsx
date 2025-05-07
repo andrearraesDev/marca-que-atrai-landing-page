@@ -20,11 +20,11 @@ const FAQ = () => {
     },
     {
       question: "Quais tipos de negócios podem se beneficiar?",
-      answer: "A consultoria é voltada principalmente para pequenos negócios de beleza, moda, bem estar e saúde que querem se destacar localmente e atrair mais clientes. No entanto, os princípios de posicionamento e branding podem beneficiar praticamente qualquer tipo de negócio."
+      answer: "A consultoria é voltada principalmente para pequenos negócios de beleza, moda, bem estar e saúde que querem se destacar localmente e atrair mais clientes."
     },
     {
       question: "Como é feita a entrega do conteúdo?",
-      answer: "A entrega é feita através de um PDF personalizado enviado por e-mail ou, se preferir, uma consultoria de até 30 minutos por chamada de vídeo (com envio do resumo por e-mail posteriormente)."
+      answer: "A entrega é feita através de um PDF personalizado enviado por e-mail ou, se preferir, uma consultoria de até 45 minutos por chamada de vídeo (com envio do resumo por e-mail posteriormente)."
     }
   ];
 
