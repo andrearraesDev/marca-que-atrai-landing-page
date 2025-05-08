@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
@@ -17,7 +16,7 @@ const Index = () => {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       
-      <main className="flex-grow pt-16 md:pt-20">
+      <main className="flex-grow">
         <Hero />
         <VideoSection />
         

@@ -1,10 +1,8 @@
 
-import React, { useState } from 'react';
-import { X } from 'lucide-react';
+import React from 'react';
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  // Empty navbar component to remove the white bar
   return null;
 };
 
