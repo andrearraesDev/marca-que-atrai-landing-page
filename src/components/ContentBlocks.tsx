@@ -23,7 +23,7 @@ const ContentBlocks = () => {
   return (
     <section className="bg-white section">
       <div className="container-custom">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">O que você vai aprender</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">O que você vai aprender?</h2>
         
         <div className="grid md:grid-cols-3 gap-8">
           {blocks.map((block, index) => (

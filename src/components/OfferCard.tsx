@@ -8,7 +8,10 @@ const OfferCard = () => {
       <div className="container-custom">
         <div className="max-w-3xl mx-auto bg-white rounded-lg shadow-xl overflow-hidden">
           <div className="p-8 md:p-12">
-            <h3 className="text-2xl md:text-3xl font-bold mb-6 text-center">Consultoria Express MARCA QUE ATRAI</h3>
+            <h3 className="text-2xl md:text-3xl font-bold mb-6 text-center">
+              Consultoria Express<br/>
+              MARCA QUE ATRAI
+            </h3>
             
             <div className="flex justify-center mb-8">
               <div className="flex -space-x-2">

@@ -11,7 +11,8 @@ const CTASection = () => {
           </h2>
           
           <p className="text-lg md:text-xl mb-8">
-            Dê o primeiro passo para criar uma marca que atrai e conquista clientes todos os dias.
+            Dê o primeiro passo para criar uma marca que atrai<br/>
+            e conquista clientes todos os dias.
           </p>
           
           <div className="bg-white text-brand-black p-8 rounded-lg">

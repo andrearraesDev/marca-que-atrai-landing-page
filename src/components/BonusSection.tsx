@@ -6,20 +6,11 @@ const BonusSection = () => {
   return (
     <section className="bg-brand-black text-white section">
       <div className="container-custom">
-        <div className="text-center mb-8">
-          <a href="#cta" className="btn-primary inline-block">
-            QUERO ESSES BÔNUS
-          </a>
-        </div>
-        
         <div className="flex items-center justify-center mb-8">
-          <div className="bonus-tag mr-3">
-            <Gift className="h-4 w-4 mr-1" /> BÔNUS
-          </div>
-          <h2 className="text-3xl md:text-4xl font-bold">Exclusivos</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Bônus Exclusivos</h2>
         </div>
         
-        <div className="max-w-3xl mx-auto bg-gray-900 rounded-lg p-8 relative overflow-hidden">
+        <div className="max-w-3xl mx-auto bg-white rounded-lg p-8 relative overflow-hidden text-black">
           {/* Grid background effect */}
           <div className="absolute inset-0 grid grid-cols-12 gap-4 opacity-10">
             {Array(12*12).fill(0).map((_, i) => (
@@ -53,10 +44,16 @@ const BonusSection = () => {
               </li>
             </ul>
             
-            <div className="w-20 h-20 absolute top-0 right-0 bg-white rounded-full text-brand-black flex items-center justify-center font-bold -rotate-12 shadow-xl">
+            <div className="w-20 h-20 absolute top-0 right-0 bg-black rounded-full text-white flex items-center justify-center font-bold -rotate-12 shadow-xl">
               <div className="transform rotate-12">GRÁTIS</div>
             </div>
           </div>
+        </div>
+        
+        <div className="text-center mt-8">
+          <a href="#cta" className="btn-primary inline-block">
+            QUERO ESSES BÔNUS
+          </a>
         </div>
       </div>
     </section>

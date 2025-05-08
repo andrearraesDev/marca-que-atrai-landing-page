@@ -23,7 +23,10 @@ const Index = () => {
         
         <section id="o-que-e" className="bg-white section">
           <div className="container-custom">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">O que é a Consultoria Express MARCA QUE ATRAI?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
+              O que é a Consultoria Express<br/>
+              MARCA QUE ATRAI?
+            </h2>
             
             <div className="max-w-3xl mx-auto text-center">
               <p className="text-lg mb-6">
