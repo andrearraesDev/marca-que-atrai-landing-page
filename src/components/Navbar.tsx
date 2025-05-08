@@ -5,9 +5,7 @@ import { X } from 'lucide-react';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  return (
-    <></>
-  );
+  return null;
 };
 
 export default Navbar;
