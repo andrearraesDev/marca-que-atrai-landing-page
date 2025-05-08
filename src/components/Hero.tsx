@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="relative bg-brand-black text-white">
       <div className="hero-gradient absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1493397212122-2b85dda8106b')] bg-cover bg-center opacity-20"></div>
+        <div className="absolute inset-0 bg-[url('/lovable-uploads/11b36c0d-b1b0-466d-bd6f-ec592561ca9d.png')] bg-cover bg-center opacity-80"></div>
       </div>
       
       <div className="container-custom relative z-10 pt-12 pb-16 md:pt-20 md:pb-24">
