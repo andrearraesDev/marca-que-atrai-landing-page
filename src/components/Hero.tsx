@@ -3,7 +3,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="relative pt-16 md:pt-20 bg-brand-black text-white">
+    <section className="relative bg-brand-black text-white">
       <div className="hero-gradient absolute inset-0 z-0">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1493397212122-2b85dda8106b')] bg-cover bg-center opacity-20"></div>
       </div>
