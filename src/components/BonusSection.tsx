@@ -11,12 +11,7 @@ const BonusSection = () => {
         </div>
         
         <div className="max-w-3xl mx-auto bg-white rounded-lg p-8 relative overflow-hidden text-black">
-          {/* Grid background effect */}
-          <div className="absolute inset-0 grid grid-cols-12 gap-4 opacity-10">
-            {Array(12*12).fill(0).map((_, i) => (
-              <div key={i} className="border border-gray-600"></div>
-            ))}
-          </div>
+          {/* Removido o grid background effect */}
           
           <div className="relative">
             <h3 className="text-2xl font-bold mb-6">Diagnóstico Express</h3>
