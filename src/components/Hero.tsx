@@ -5,23 +5,16 @@ const Hero = () => {
   return (
     <section className="relative bg-brand-black text-white">
       <div className="hero-gradient absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-[url('/lovable-uploads/11b36c0d-b1b0-466d-bd6f-ec592561ca9d.png')] bg-cover bg-center opacity-80"></div>
+        <div className="absolute inset-0 bg-[url('/lovable-uploads/1569ad4a-e1af-4f63-ba7d-e242413cfc6d.png')] bg-cover bg-center opacity-80"></div>
       </div>
       
       <div className="container-custom relative z-10 pt-12 pb-16 md:pt-20 md:pb-24">
-        <div className="tag mb-6 md:mb-8 mx-auto md:mx-0 w-fit">CONSULTORIA EXPRESS</div>
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 max-w-4xl mx-auto md:mx-0 text-center md:text-left">
-          Atraia mais clientes e transforme seu negócio!
-        </h1>
-        
-        <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto md:mx-0 text-center md:text-left">
-          Descubra como se tornar uma referência no seu mercado com estratégias práticas de posicionamento e branding.
-        </p>
-        
-        <div className="flex flex-col md:flex-row items-center gap-4 mt-8 max-w-lg mx-auto md:mx-0">
-          <a href="#cta" className="btn-primary w-full md:w-auto">
-            COMEÇAR AGORA
-          </a>
+        <div className="flex justify-end">
+          <div className="flex flex-col md:flex-row items-center gap-4 mt-8">
+            <a href="#cta" className="btn-primary w-full md:w-auto">
+              COMEÇAR AGORA
+            </a>
+          </div>
         </div>
       </div>
     </section>
