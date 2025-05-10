@@ -11,7 +11,6 @@ const BonusSection = () => {
         </div>
         
         <div className="max-w-3xl mx-auto bg-white rounded-lg p-8 relative overflow-hidden text-black">
-          {/* Removido o grid background effect */}
           
           <div className="relative">
             <h3 className="text-2xl font-bold mb-6">Diagnóstico Express</h3>

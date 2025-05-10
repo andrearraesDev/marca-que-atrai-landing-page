@@ -34,7 +34,7 @@ const CTASection = () => {
               </div>
             </div>
             
-            <a href="#" className="btn-primary block w-full text-center text-lg">
+            <a href="https://forms.gle/XBwsJkA3XDm1pt3U6" className="btn-primary block w-full text-center text-lg">
               QUERO COMEÇAR AGORA
             </a>
             

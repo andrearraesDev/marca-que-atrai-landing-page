@@ -1,21 +1,24 @@
-
-import React from 'react';
+import React from "react";
 
 const Hero = () => {
   return (
-    <section className="relative bg-brand-black text-white h-screen">
-      <div className="hero-gradient absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-[url('/lovable-uploads/1569ad4a-e1af-4f63-ba7d-e242413cfc6d.png')] bg-cover bg-no-repeat bg-center opacity-100"></div>
+    <section className="relative bg-brand-black text-white min-h-[80vh] md:min-h-[500px] overflow-hidden">
+      <div className="absolute inset-0">
+        <img
+          src="/lovable-uploads/1569ad4a-e1af-4f63-ba7d-e242413cfc6d.png"
+          alt="Consultoria Express"
+          className="w-full h-full object-cover object-[30%_top]"
+          loading="eager"
+        />
       </div>
-      
-      <div className="container-custom relative z-10 pt-12 pb-16 md:pt-20 md:pb-24 h-full flex flex-col justify-end">
-        <div className="flex justify-end mb-16">
-          <div className="flex flex-col md:flex-row items-center gap-4 mt-8">
-            <a href="#cta" className="btn-primary w-full md:w-auto">
-              COMEÇAR AGORA
-            </a>
-          </div>
-        </div>
+
+      <div className="absolute top-[60%] md:top-[66%] right-[8%] z-10 p-4">
+        <a
+          href="#cta"
+          className="btn-primary px-8 py-3 md:px-12 md:py-4 text-base md:text-xl shadow-lg transform hover:scale-105 transition-transform"
+        >
+          COMEÇAR AGORA
+        </a>
       </div>
     </section>
   );
