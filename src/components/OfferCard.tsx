@@ -50,7 +50,9 @@ const OfferCard = () => {
                   <Star className="h-5 w-5 fill-brand-gold text-brand-gold" />
                   <Star className="h-5 w-5 fill-brand-gold text-brand-gold" />
                 </div>
-                <span className="ml-2 text-sm text-gray-600">32 avaliações</span>
+  <span className="mt-0.5 ml-2 text-sm text-gray-600 whitespace-nowrap leading-none self-center">
+    32 avaliações
+  </span>
               </div>
             </div>
 
