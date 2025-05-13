@@ -1,0 +1,52 @@
+/* Estilos principais do contêiner da aplicação */
+#root {
+  max-width: 1280px; /* Define a largura máxima do contêiner */
+  margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+  padding: 2rem; /* Adiciona espaço interno (padding) ao redor */
+  text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilos para o logo */
+.logo {
+  height: 6em; /* Define a altura do logo */
+  padding: 1.5em; /* Adiciona espaçamento ao redor do logo */
+  will-change: filter; /* Melhora o desempenho de animações relacionadas ao filtro */
+  transition: filter 300ms; /* Transição suave para o efeito de filtro */
+}
+
+/* Efeito de hover para o logo, com um sombreamento */
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa); /* Aplica sombra com cor e intensidade */
+}
+
+/* Efeito de hover específico para logo com a classe "react" */
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa); /* Aplica sombra diferente quando a classe "react" está presente */
+}
+
+/* Animação de rotação contínua do logo */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg); /* Inicia a rotação a partir de 0 graus */
+  }
+  to {
+    transform: rotate(360deg); /* Finaliza a rotação a 360 graus */
+  }
+}
+
+/* Animação do logo somente se o usuário não preferir uma redução de movimento */
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear; /* Aplica a rotação infinita com duração de 20 segundos */
+  }
+}
+
+/* Estilos para o cartão */
+.card {
+  padding: 2em; /* Adiciona espaçamento interno ao cartão */
+}
+
+/* Estilo de texto para links relacionados à documentação */
+.read-the-docs {
+  color: #888; /* Cor do texto para links de documentação */
+}

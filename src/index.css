@@ -1,0 +1,100 @@
+/* Importação das camadas do Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Declaração de variáveis customizadas para o design */
+@layer base {
+  :root {
+    /* Cores principais do tema */
+    --background: 0 0% 100%; /* Cor de fundo */
+    --foreground: 222.2 84% 4.9%; /* Cor do texto principal */
+    
+    /* Cores para diferentes componentes */
+    --card: 0 0% 100%; /* Cor de fundo do cartão */
+    --card-foreground: 222.2 84% 4.9%; /* Cor do texto no cartão */
+    
+    --popover: 0 0% 100%; /* Cor de fundo do popover */
+    --popover-foreground: 222.2 84% 4.9%; /* Cor do texto no popover */
+    
+    --primary: 240 100% 62%; /* Cor primária */
+    --primary-foreground: 210 40% 98%; /* Cor de texto primária */
+    
+    --secondary: 46 100% 50%; /* Cor secundária */
+    --secondary-foreground: 222.2 47.4% 11.2%; /* Cor de texto secundário */
+    
+    --muted: 210 40% 96.1%; /* Cor atenuada */
+    --muted-foreground: 215.4 16.3% 46.9%; /* Cor de texto atenuada */
+    
+    --accent: 210 40% 96.1%; /* Cor de destaque */
+    --accent-foreground: 222.2 47.4% 11.2%; /* Cor de texto de destaque */
+    
+    --destructive: 0 84.2% 60.2%; /* Cor de alerta/destrutiva */
+    --destructive-foreground: 210 40% 98%; /* Cor de texto de alerta/destrutiva */
+    
+    --border: 214.3 31.8% 91.4%; /* Cor da borda */
+    --input: 214.3 31.8% 91.4%; /* Cor de fundo de entrada */
+    --ring: 222.2 84% 4.9%; /* Cor do anel de foco */
+    
+    --radius: 0.5rem; /* Raio das bordas */
+    
+    /* Estilos para a barra lateral */
+    --sidebar-background: 0 0% 98%; /* Cor de fundo da sidebar */
+    --sidebar-foreground: 240 5.3% 26.1%; /* Cor do texto na sidebar */
+    --sidebar-primary: 240 5.9% 10%; /* Cor primária na sidebar */
+    --sidebar-primary-foreground: 0 0% 98%; /* Cor de texto primário na sidebar */
+    --sidebar-accent: 240 4.8% 95.9%; /* Cor de destaque na sidebar */
+    --sidebar-accent-foreground: 240 5.9% 10%; /* Cor de texto de destaque na sidebar */
+    --sidebar-border: 220 13% 91%; /* Cor da borda da sidebar */
+    --sidebar-ring: 217.2 91.2% 59.8%; /* Cor do anel de foco da sidebar */
+  }
+}
+
+/* Estilos base para todos os elementos */
+@layer base {
+  * {
+    @apply border-border; /* Aplica borda padrão em todos os elementos */
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans; /* Aplica fundo, texto e fonte padrão no body */
+  }
+
+  /* Estilos de cabeçalhos */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-extrabold; /* Define fonte e peso extra para os cabeçalhos */
+  }
+}
+
+/* Estilos personalizados para componentes */
+@layer components {
+  /* Estilo para o fundo gradiente do herói */
+  .hero-gradient {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.85)); /* Gradiente escuro para o fundo */
+  }
+  
+  /* Estilo para tags com fundo de marca */
+  .tag {
+    @apply inline-block bg-brand-blue text-white text-xs font-bold px-3 py-1 rounded-full uppercase;
+  }
+  
+  /* Estilo para tags de bônus com um fundo dourado */
+  .bonus-tag {
+    @apply inline-flex items-center bg-brand-gold text-white text-xs font-bold px-3 py-1 rounded-full uppercase;
+  }
+  
+  /* Estilo para seções com padding */
+  .section {
+    @apply py-16 md:py-24; /* Adiciona padding vertical */
+  }
+  
+  /* Estilo para contêineres personalizados */
+  .container-custom {
+    @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8; /* Contêiner fluido com largura máxima */
+  }
+  
+  /* Estilo para botões primários */
+  .btn-primary {
+    @apply bg-brand-blue hover:bg-brand-blue/80 text-white font-bold py-3 px-6 rounded transition-all duration-200 uppercase text-center;
+  }
+}
