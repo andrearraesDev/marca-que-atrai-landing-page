@@ -29,7 +29,7 @@ const Footer = () => {
         
         {/* Aviso de não afiliação */}
         <div className="mt-10 pt-6 border-t border-gray-800 text-center text-xs text-gray-500">
-          <p>Este site não é afiliado à Meta Platforms, Inc. ou a qualquer uma de suas entidades.</p>
+          <p>Este site não é afiliado à Meta Platforms, Inc. ou a qualquer uma de suas entidades. </p>
         </div>
       </div>
     </footer>
