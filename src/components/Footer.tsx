@@ -10,21 +10,21 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-center text-center">
           
           {/* Informações de copyright e redes sociais */}
-          <div className="text-gray-400 text-sm flex items-center gap-2">
-            {/* Link para o Instagram */}
-            <a
-              href="https://www.instagram.com/thaynacramos"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1 hover:text-pink-500 transition-colors"
-            >
-              <i className="fa fa-instagram"></i> {/* Ícone do Instagram */}
-              <span> THAYNÁ RAMOS</span>
-            </a>
-            
-            {/* Texto de copyright */}
-            <span>©{new Date().getFullYear()} - Todos os direitos reservados</span>
-          </div>
+<div className="text-gray-400 text-sm flex flex-wrap justify-center items-center gap-2 text-center">
+  {/* Link para o Instagram */}
+  <a
+    href="https://www.instagram.com/thaynacramos"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-1 hover:text-pink-500 transition-colors whitespace-nowrap"
+  >
+    <i className="fa fa-instagram"></i>
+    <span>THAYNÁ RAMOS</span>
+  </a>
+  
+  {/* Texto de copyright */}
+  <span className="whitespace-nowrap">©{new Date().getFullYear()} - Todos os direitos reservados</span>
+</div>
         </div>
         
         {/* Aviso de não afiliação */}
