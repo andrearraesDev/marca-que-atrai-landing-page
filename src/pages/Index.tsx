@@ -34,7 +34,7 @@ const Index = () => {
    <div className="md:w-1/2 flex justify-center"> {/* Centraliza a imagem */}
   <div className="rounded-lg overflow-hidden w-full max-w-md"> {/* Limita largura máxima */}
     <img 
-      src="public/uploads/profile.jpg" 
+      src="main/public/uploads/profile.jpg" 
       alt="Thayná Ramos - Estrategista e diretora criativa" 
       className="w-full h-auto"
     />
