@@ -29,17 +29,17 @@ const OfferCard = () => {
             <div className="flex justify-center mb-8">
               <div className="flex -space-x-2">
                 <img
-                  src="public/uploads/vanessa.jpeg"
+                  src="https://raw.githubusercontent.com/andrearraesDev/marca-que-atrai-landing-page/refs/heads/main/public/uploads/vanessa.jpeg"
                   alt="Cliente"
                   className="w-10 h-10 rounded-full border-2 border-white object-cover"
                 />
                 <img
-                  src="public/uploads/pamela.jpeg"
+                  src="https://raw.githubusercontent.com/andrearraesDev/marca-que-atrai-landing-page/refs/heads/main/public/uploads/pamela.jpeg"
                   alt="Cliente"
                   className="w-10 h-10 rounded-full border-2 border-white object-cover"
                 />
                 <img
-                  src="public/uploads/aline.jpeg"
+                  src="https://raw.githubusercontent.com/andrearraesDev/marca-que-atrai-landing-page/refs/heads/main/public/uploads/aline.jpeg"
                   alt="Cliente"
                   className="w-10 h-10 rounded-full border-2 border-white object-cover"
                 />

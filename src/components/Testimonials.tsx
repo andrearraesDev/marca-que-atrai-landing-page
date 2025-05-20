@@ -11,19 +11,19 @@ const Testimonials = () => {
       text: "Participar da Marca que Atrai foi um divisor de águas na minha carreira. Como especialista em marketing de influência para o setor de beleza, eu já conhecia várias estratégias, mas aqui aprendi a construir uma marca pessoal autêntica e magnética. O conteúdo é prático, direto e me ajudou a atrair clientes ideais, além de estar me ajudando a fortalecer minha presença digital. Recomendo para todo profissional que quer se destacar de verdade!",
       name: "Vanessa Normandes",
       business: "Especialista em Marketing",
-      image: "public/uploads/vanessa.jpeg"
+      image: "https://raw.githubusercontent.com/andrearraesDev/marca-que-atrai-landing-page/refs/heads/main/public/uploads/vanessa.jpeg"
     },
     {
       text: "Eu sempre tive paixão por unhas, alongamentos, mas sentia dificuldade em mostrar meu diferencial nas redes sociais. Depois que entrei para o Marca que Atrai, aprendi a comunicar minha essência e valorizar meu trabalho. Hoje, além de ter agenda cheia, finalmente conquistei clientes fiéis!  O suporte e as reunião são incríveis, vale cada minuto com um pequeno investimento.",
       name: "Pamela França",
       business: "Nail Designer",
-      image: "public/uploads/pamela.jpeg"
+      image: "https://raw.githubusercontent.com/andrearraesDev/marca-que-atrai-landing-page/refs/heads/main/public/uploads/pamela.jpeg"
     },
     {
       text: "O Marca que Atrai superou todas as minhas expectativas! Como biomédica estética, eu precisava de estratégias para me posicionar, posicionar minha nova clínica e transmitir confiança aos meus pacientes. A consultoria me ajudou a finalmente entender a importância de criar autoridade no Instagram e como fazer para aumentar minha procura por procedimentos. Me sinto muito mais segura e realizada profissionalmente!",
       name: "Dra. Aline Rocha",
       business: "Biomédica Estética",
-      image: "public/uploads/aline.jpeg"
+      image: "https://raw.githubusercontent.com/andrearraesDev/marca-que-atrai-landing-page/refs/heads/main/public/uploads/aline.jpeg"
     }
   ];
 
