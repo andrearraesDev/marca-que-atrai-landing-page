@@ -8,22 +8,22 @@ const Testimonials = () => {
   // Lista de depoimentos com informações de cada cliente
   const testimonials = [
     {
-      text: "A consultoria foi um divisor de águas para o meu negócio. Consegui entender meus pontos fortes e como me comunicar melhor com meus clientes.",
-      name: "Ana Silva",
-      business: "Studio de Design",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+      text: "Participar da Marca que Atrai foi um divisor de águas na minha carreira. Como especialista em marketing de influência para o setor de beleza, eu já conhecia várias estratégias, mas aqui aprendi a construir uma marca pessoal autêntica e magnética. O conteúdo é prático, direto e me ajudou a atrair clientes ideais, além de estar me ajudando a fortalecer minha presença digital. Recomendo para todo profissional que quer se destacar de verdade!",
+      name: "Vanessa Normandes",
+      business: "Especialista em Marketing",
+      image: "public/uploads/vanessa.jpeg"
     },
     {
-      text: "Em apenas uma semana aplicando as estratégias, já notei um aumento significativo no interesse pelos meus serviços. Recomendo muito!",
-      name: "Carlos Mendes",
-      business: "Salão de Beleza",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+      text: "Eu sempre tive paixão por unhas, alongamentos, mas sentia dificuldade em mostrar meu diferencial nas redes sociais. Depois que entrei para o Marca que Atrai, aprendi a comunicar minha essência e valorizar meu trabalho. Hoje, além de ter agenda cheia, finalmente conquistei clientes fiéis!  O suporte e as reunião são incríveis, vale cada minuto com um pequeno investimento.",
+      name: "Pamela França",
+      business: "Nail Designer",
+      image: "public/uploads/pamela.jpeg"
     },
     {
-      text: "O mini-plano de ação foi perfeito para mim que estava começando. Direto, prático e com resultados rápidos.",
-      name: "Patrícia Lima",
-      business: "Consultora de Imagem",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80"
+      text: "O Marca que Atrai superou todas as minhas expectativas! Como biomédica estética, eu precisava de estratégias para me posicionar, posicionar minha nova clínica e transmitir confiança aos meus pacientes. A consultoria me ajudou a finalmente entender a importância de criar autoridade no Instagram e como fazer para aumentar minha procura por procedimentos. Me sinto muito mais segura e realizada profissionalmente!",
+      name: "Dra. Aline Rocha",
+      business: "Biomédica Estética",
+      image: "public/uploads/aline.jpeg"
     }
   ];
 
@@ -36,7 +36,7 @@ const Testimonials = () => {
         {/* Grid de depoimentos */}
         <div className="grid md:grid-cols-3 gap-8 items-stretch">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="bg-brand-gray p-8 rounded-lg flex flex-col justify-between h-full">
+            <div key={index} className="bg-brand-gray p-8 rounded-lg flex flex-col h-full">
               {/* Estrelas de avaliação */}
               <div className="flex mb-4">
                 <Star className="h-5 w-5 fill-brand-gold text-brand-gold" />
@@ -47,10 +47,10 @@ const Testimonials = () => {
               </div>
 
               {/* Texto do depoimento */}
-              <p className="text-gray-700 mb-6">"{testimonial.text}"</p>
+              <p className="text-gray-700 mb-6 flex-grow">"{testimonial.text}"</p>
 
               {/* Informações do cliente */}
-              <div className="flex items-center">
+              <div className="flex items-center mt-auto">
                 <img 
                   src={testimonial.image} 
                   alt={testimonial.name} 
