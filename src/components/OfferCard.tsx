@@ -60,7 +60,7 @@ const OfferCard = () => {
               <div>
                 <p className="text-gray-500 text-sm uppercase mb-1">Investimento único</p>
                 <div className="flex items-baseline">
-                  <span className="text-4xl font-bold">R$99,90</span>
+                  <span className="text-4xl font-bold">R$149,90</span>
                   <span className="text-gray-500 ml-2 line-through">R$399,90</span>
                 </div>
                 <p className="text-sm text-gray-600 mt-1">ou 12x no cartão</p>
@@ -87,7 +87,7 @@ const OfferCard = () => {
             {/* Bloco de desconto e urgência */}
             <div className="mt-4 text-center">
               <div className="inline-block bg-brand-gold text-white text-xs font-bold px-3 py-1 rounded-full">
-                75% DE DESCONTO
+                60% DE DESCONTO
               </div>
               <p className="text-sm mt-1">Oferta por tempo limitado</p>
             </div>
